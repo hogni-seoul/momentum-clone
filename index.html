@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Momentum Clone</title>
+  </head>
+  <body>
+    <div class="screen">
+      <div class="screen__question">
+        <span>Hello, what's your name?</span>
+      </div>
+      <form class="screen__form js-nameForm">
+        <input type="text" />
+      </form>
+    </div>
+    <div class="main">
+      <div class="weather js-weather">
+        <span class="weather__celsius"></span>
+        <span class="weatehr_location"></span>
+      </div>
+      <div class="clock">
+        <div class="clock__time js-clock">
+          <span>00:00:00</span>
+        </div>
+        <div class="greeting js-greeting">
+          <span class="greeting__words">Good morning, </span
+          ><span class="greeting__name"></span>
+        </div>
+      </div>
+      <div class="goal-setting">
+        <span>Add three things to do today</span>
+        <form class="goal-form js-toDoForm">
+          <input type="text" />
+        </form>
+      </div>
+      <div class="toDoList js-pendingList"></div>
+    </div>
+    <script src="js/index.js"></script>
+    <script src="js/screen.js"></script>
+    <script src="js/name.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>

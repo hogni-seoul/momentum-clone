@@ -1,0 +1,10 @@
+.weather {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.weather__celsius {
+  font-size: 25px;
+}

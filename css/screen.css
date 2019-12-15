@@ -1,0 +1,25 @@
+.screen {
+  display: block;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.screen__question span {
+  font-size: 80px;
+  font-weight: 500;
+}
+
+.screen__form input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #f1f2f6;
+  text-align: center;
+  height: 60px;
+  width: 500px;
+  font-size: 60px;
+  color: #f1f2f6;
+  margin-top: 40px;
+}
